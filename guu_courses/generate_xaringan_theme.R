@@ -23,7 +23,7 @@ write_xaringan_theme(
     inverse_header_color = "#f3f3f3",
     
     title_slide_text_color = "#ffffff",
-    title_slide_background_image = "",
+    title_slide_background_image = "https://github.com/aksyuk/xaringan_custom_templates/raw/master/guu_courses/title_GERB-GUU.png",
     title_slide_background_size = "cover", 
     
     footnote_color = NA,
