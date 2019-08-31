@@ -1,2 +1,3 @@
 # xaringan_custom_templates
- repo for css and images for presentations
+
+This is a repo for my css and images for presentations, generated via `xaringan` R package.   
