@@ -3,6 +3,11 @@ library('xaringan')
 library('xaringanthemer')
 
 write_xaringan_theme(
+
+    text_font_google = google_font("Open Sans", "400", "400i", "600i", "700"),
+    header_font_google = google_font("Comfortaa", "400", "400i", "600i", "700"),
+    code_font_google = google_font("Source Code Pro", "400", "400i", "600i", "700"),
+    
     text_color = "#000", 
     header_color = "#000",
     background_color = "#F7F9F9", 
@@ -42,10 +47,6 @@ write_xaringan_theme(
     header_h2_font_size = "45px", 
     header_h3_font_size = "35px",
     text_slide_number_font_size = "0.9em", 
-    
-    text_font_google = google_font("Open Sans", "400", "400i", "600i", "700"),
-    header_font_google = google_font("Comfortaa", "400", "400i", "600i", "700"),
-    code_font_google = google_font("Source Code Pro", "400", "400i", "600i", "700"),
     
     extra_css = NULL,
     extra_fonts = NULL, 
