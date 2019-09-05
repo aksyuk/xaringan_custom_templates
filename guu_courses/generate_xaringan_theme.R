@@ -48,8 +48,9 @@ write_xaringan_theme(
     header_h3_font_size = "35px",
     text_slide_number_font_size = "0.9em", 
     
-    extra_css = NULL,
     extra_fonts = NULL, 
+    
+    extra_css = list(".small" = list("font-size" = "70%")),
     
     outfile = "./css/guu-slides-theme.css"
 )
